@@ -14,8 +14,8 @@ def read_root():
 import pandas as pd
 
 # Cargar el dataset
-dataset_movies = pd.read_csv("C:/Users/User/Desktop/SOYHENRY/Proyecto Individual/PROYECTO 1/dataset_final_movies.csv")
-dataset_credits = pd.read_csv("C:/Users/User/Desktop/SOYHENRY/Proyecto Individual/PROYECTO 1/credits_dataset.csv")
+dataset_movies = pd.read_csv("./dataset_final_movies.csv")
+dataset_credits = pd.read_csv("./credits_dataset.csv")
 
 print(dataset_movies.info())
 print(dataset_credits.info())
