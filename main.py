@@ -1,5 +1,6 @@
 # uvicorn funciones:app --reload
 # http://localhost:8000/docs#/
+# Cambios para forzar el redeploy
 
 from fastapi import FastAPI, HTTPException
 from typing import List, Dict
